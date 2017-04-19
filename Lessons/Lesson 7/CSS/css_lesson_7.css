@@ -1,0 +1,30 @@
+/*style file*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: antiquewhite;
+    background-image: url(../IMG/bg_general.jpg);
+    background-attachment: fixed;
+}
+.block {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    cursor: help;
+}
+.block.red {
+    background-color: rgba(215, 0, 0, .5);
+}
+.block.blue {
+    background-color: blue;
+}
+.block.img {
+    border: 1px solid grey;
+    width: 600px;
+    background-image: url(../IMG/peizagh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*100% 100%; 300px 300px*; contain*/
+    background-position: center;
+}

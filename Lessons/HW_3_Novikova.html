@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework 3 07/11/16</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <p style="color: orange;">Текст будет оранжевый</p>
+    <p style="font-family: cursive;">Текст будет другим шрифтом</p>
+    <p style="font-size: 32px;">Текст будет в два раза больше 32px (Норма 16px)</p>
+    <p style="font-size: 24pt;">Текст будет в два раза больше 24pt (Норма 12pt)</p>
+    <p style="font-size: 200%;">Текст будет в два раза больше 200% (Норма 100%)</p>
+    <p style="font-stretch: inherit;">Текст будет</p>
+    <p style="font-stretch: normal;">Текст будет</p>
+    <p style="font-family: verdana; font-stretch: ultra-condensed;">Текст будет</p>
+    <p style="font-family: verdana; font-stretch: semi-expanded;">Текст будет</p>
+    <p style="font-family: verdana; font-stretch: expanded;">Текст будет</p>
+    <p style="background-color: red;"> Не вижу разницы в формате font-stretch. Если я правильно поняла формат работает не со всеми браузерами: <a href="https://webref.ru/css/font-stretch" target="_blank">работа font-stretch</a></p>
+    <p style="font-style: oblique;"> Наклонный текст </p>
+    <p style="font-style: italic;"> Курсивный текст </p>
+    <p style="font-variant: small-caps;"> Строчные буквы заглавными, но с уменьшением размера </p>
+    <p style="font-weight: bolder;"> Жирнее текст </p>
+    <p style="font-weight: lighter;"> Менее жирнее от базового текст </p>
+     <p style="font-family: verdana;"> Базовый текст </p>
+    <p style="font-family: aharoni; font-weight: 100;"> Базовый текст утонченный 100 </p>
+    <p style="font-family: aharoni; font-weight: 400;"> Базовый текст 400 </p>
+    <p style="font-family: verdana; font-weight: 300;"> Жирнее в 3 раза текст </p>
+    <p style="font-family: verdana; font-weight: 500;"> Жирнее в 5 раз текст </p>
+     <p style="font-family: verdana; font-weight: 600;"> Жирнее в 6 раз текст </p>
+    <p style="font-family: verdana; font-weight: 700;"> Жирнее в 7 раз текст </p>
+    <p style="font-family: verdana; font-weight: 900;"> Жирнее в 9 раз текст </p>
+<p style="background-color: red;"> Не увидела разницы между lighter, 100, 300, 500. Вероятно есть комбинация базовых шрифтов, с которыми работает font-weight <a href="https://webref.ru/css/font-weight" target="_blank">Работа font-weight</a></p>
+    <p style="letter-spacing: 5px;"> Разреженный текст в 5px между буквами </p>
+    <p style="line-height: 200%;"> Изменение расстояниями между строками текста</p>
+    <p style="text-align: center;">По центру</p>
+    <p style="text-align: right;">Справа</p>
+    <p style="text-align-last: right;">Напишу много строк. Последняя строка должна выровняться по правому краю блока</p>
+    <p style="text-align-last: center;">Напишу много строк. Последняя строка должна выровняться по центру блока</p>
+    <p style="text-decoration: blink;">текст должен мигать</p>
+    <p style="text-decoration: line-through;">текст должен быть перечеркнут</p>
+    <p style="text-decoration: underline;">текст должен быть подчеркнут</p>
+    <p style="text-decoration: overline;">текст должен быть надчеркнут</p>
+<p style="background-color: red;"> Не мигает текст, согласно <a href="https://webref.ru/css/text-decoration" target="_blank">Работа text-decoration</a> не поддерживается значение браузерами и должно быть заменено анимацией</p>
+    
+    <p style="text-decoration-color: red;">красный текст</p>
+    <p style="text-decoration-line: line-through;">перечеркнутый текст</p>
+    <p style="text-decoration-style: italic;">курсивный текст</p>
+<p style="background-color: red;"> text-decoration с добавкой не работает. Есть обозначение, что все 3 добавки к text-decoration не поддерживаются браузером Chrome <a href="https://webref.ru/css/text-decoration-color" target="_blank">text-decoration с добавками</a></p>
+    <p style="text-indent: 5%;"> Определил отступ начала параграфа. Для текстового документа - лучше использовать стандартизацией в разделе head. Можно использовать %, px и другие форматы длины </p>
+    <p style="-webkit-text-overflow: ellipsis;"> Многоточие без переноса строк и обрезание в конце строки. Не сработало, видимо должно быть еще условие по формирвоанию блока.</p>
+    <p style="text-shadow: 1px 1px 2px black, 0 0 1em red;">Должен быть текст с тенью</p>
+    <p style="text-transform: capitalize;">Все слова предложения начинаются с заглавной буквы</p>
+    <p style="text-transform: lowercase;">ВСЕ СТРОЧНОГО регистра</p>
+    <p style="text-transform: uppercase;">все прописными буквами</p>
+
+<!--Не со всеми вариантами оформления четкая картина. Особенно нет ясности с выбелением блоков, decoration, stretch-->
+
+
+</body>
+</html>

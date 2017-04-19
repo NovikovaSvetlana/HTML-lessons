@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+h1 {
+    color: indianred;
+    font-family: monospace;
+    display: inline-block;
+}
+h1::before {
+    content: "-->";
+
+}
+h1::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 0;
+    background-color: aquamarine;
+    transition: all 400ms;
+    margin: 0 auto;
+}
+h1:hover::after {
+    width: 100%;
+}
+[class^="icon-"] {
+    color: red;
+    font-size: 50px;  
+}
+[class^="icon-"]:hover {
+    transform: rotate(360deg);
+}
+.icon-music::before {
+    content: "/e911";
+}
+.icon-home::before {
+    content: "/e900";
+}

@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-style: normal;
+    src: url('LIB/fonts/merriweather.regular.ttf') format ('ttf');
+}
+@font-face {
+    font-family: "MerriweatherBold";
+    font-weight: 400;
+    font-style: bold;
+    src: url('LIB/fonts/merriweather.bold.ttf') format ('ttf');
+}
+@font-face {
+    font-family: "MerriweatherUltrabold";
+    font-weight: 400;
+    font-style: bold;
+    src: url('LIB/fonts/merriweather.ultrabold.ttf') format ('ttf');
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2e2e30;
+    
+}
+.btn {
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.btn.read {
+    border: 1px solid #38383a;
+    border-radius: 15px;
+    font-size: 9px;
+    padding: 11px 20px;
+}
+.btn.large {
+    border: 1px solid #ffffff;
+    font-size: 11px
+}
+.bold {
+    font-family: MerriweatherBold;
+}
+nav.navigation {
+    width: 100%;
+    height: auto;
+    max-width: 1086px;
+    margin: 33px auto 0; 
+}
+.navigation .logo {
+    display: inline-block;
+    padding: 60px 0;
+    font-family: MerriweatherUltrabold, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.navigation .menu {
+    display: block;
+    width: auto;
+    float: right;
+    position: relative;
+    margin: 33px 0;
+    border: 1px solid #38383a;
+    border-radius: 5px;
+    background-color: #38383a;
+}
+.navigation .menu ul {
+    padding: 0;
+}
+.navigation .menu ul li {
+    float: left;
+    display: block;
+}
+.navigation .menu ul li a {
+    display: block;
+    padding: 25px 40px;
+    text-decoration: none;
+    color: #888888;
+    font-family: Merriweather, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase; 
+}
+.navigation .menu ul li a:hover {
+    background-color: #f4ebeb;
+}
+header.top {
+    width: 100%;
+    height: auto;
+    max-width: 1086px;
+    margin: 0 auto;
+    padding: 0 45px;
+    color: white;
+    font-family: Merriweather, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.btn.livestyle {
+    border: 1px solid #4b77be;
+    background-color: #4b77be;
+    margin: 200px 0 0;
+}
+.heading h2.bold {
+    display: block;
+    font-size: 20px;
+}
+.heading .text {
+    padding: 30px 0 45px;
+    font-size: 13px;
+    width: 83%
+}
+.heading .btn.read.large {
+    margin-bottom: 50px;
+}
+div.section-menu {
+    width: 100%;
+    height: auto;
+    max-width: 1086px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #38383a;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div.section-menu .section ul{
+    padding: 0;
+    margin: 0;
+}
+div.section-menu .section li {
+    display: block;
+    float: left;
+} 
+
+div.section-menu .section li a {
+    display: block;
+    text-decoration: none;
+    color: rgb( 56, 56, 58);
+    padding: 30px 45px;
+} 
+div.section-menu .section li a div.slyde {
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    font-size: 10px;
+}
+div.section-menu .section li a div.name {
+   font-size: 13px;
+}
+div.section-menu .section li a:hover {
+    background-color: rgb(75, 119, 190);
+    color: rgb(255, 255, 255);
+}
+div.main {
+    width: 100%;
+    height: auto;
+    max-width: 1086px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+div.main .load p {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    margin: 10px 0;
+    background-color: #38383a;  
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #38383a;
+    border-radius: 5px;
+}
+div.main .load p a {
+    text-decoration: none;
+    color: #888888;
+}

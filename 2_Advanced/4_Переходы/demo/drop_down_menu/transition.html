@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	body{
+		background-color: pink;
+	}
+		.outer{
+			width: 700px;
+			height: 50px;
+			background-color: #3a3e46;
+			font-size: 0;
+			padding-left: 0;
+		}
+		.outer>li{
+			display: inline-block;
+			vertical-align: top;
+			box-sizing: border-box;
+			font-size: 1rem;
+			width: 140px;
+			height: 50px;
+			border-right: 1px solid green;
+			position: relative;
+		}
+		.outer>li:last-child{
+			border-right: none;
+		}
+		.outer>li:hover{
+			background-color: #686a6e;
+			color: white;
+		}
+		.outer>li:hover .dropdown{
+			height: 160px;
+		}
+		.outer>li>a{
+			display: block;
+			line-height: 50px;
+			text-align: center;
+			text-decoration: none;
+			color: gray;
+		}
+		.dropdown{
+			position: absolute;
+			overflow: hidden;
+			box-sizing: border-box;
+			width: 100%;
+			list-style-type: none;
+			padding: 0 10px;
+			background-color: white;
+			top: 0;
+			height: 0;
+			transition: height 0.5s ease;
+		}
+		.dropdown>li{
+			margin-bottom: 20px;
+		}
+		.dropdown>li:first-child{
+			margin-top: 10px;
+		}
+		.dropdown>li>a{
+			color: gray;
+			text-decoration: none;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<ul class="outer">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Shop</a></li>
+		<li><a href="#">Blog</a>
+			<ul class="dropdown">
+				<li><a href="#">HTML &amp; CSS</a></li>
+				<li><a href="#">JAvaScript</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">SEO</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Portfolio</a></li>
+		<li><a href="#">Contacts</a></li>
+	</ul>
+</body>
+</html>

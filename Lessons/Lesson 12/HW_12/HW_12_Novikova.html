@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 12</title>
+    <link rel="stylesheet" href="CSS/css_hw_12.css">
+</head>
+<body>
+   <h2>Форма регистрации на сайте</h2>
+    <div class="registration">
+     <form action="/login" method="post">
+         <p>Персональные данные</p>
+       
+        <input type="text" value="Фамилия">
+        <input type="text" value="Имя" required>
+        <br>
+        <label for="radio">Пол:</label>
+        <input type="radio" name="Пол" value="Мужчина"> Мужчина
+        <input type="radio" name="Пол" value="Женщина"> Женщина
+        <br>
+        <label for="number">Возраст</label>
+        <input type="number" name="Возраст" style="width: 50px;">
+        <br>
+        <label for="date">Дата рождения</label>
+        <input type="date" name="Дата Рождения">
+        <br>
+        <p>Как с Вами можно связаться?</p>
+        <label for="email">E-mail</label>
+        <input type="email" value=""><br>
+        <label for="tel">Телефон</label>
+        <input type="tel" value="+38(___)___-__-__">
+        <br>
+        <label for="password">Пароль для регистрации</label>
+        <input type="password" name="пароль" maxlength="15" required>
+        <br>
+        <span style="font-family: arial; font-size: 10px;">Не менее 8-ми символов с цифрами, знаками припинания и заглавными буквами</span>
+        <br>
+        <p>С какими материалами вы хотели бы познакомиться на нашем сайте (можно выбрать любое количество пунктов)?</p>
+        <div class="choice">
+            <input type="checkbox" value="экологическая устойчивость">    Экологическая устойчивость<br>
+            <input type="checkbox" value="корпоративное управление">    Корпоративное управление<br>
+            <input type="checkbox" value="Стратегический менеджмент">    Стратегический менеджмент<br>
+            <input type="checkbox" value="Управление проектами">    Управление проектами<br>
+        </div>
+        <p>Вы можете предложить нам свой материал для публикации на сайте</p>
+        <input type="file" name="Прикрепить файл"> 
+        
+        <p>Комментарии</p>
+        <textarea name="comment" cols="60" rows="5"></textarea>
+        <br>
+        <div class="final">
+            <input type="datetime-local" name="Время регистрации"> Время регистрации
+            <br>
+            <input type="submit" name="Зарегистрироваться" style="background-color: #dba846; padding: 5px 10px; width: 200px;">
+            
+        </div>
+      </form>    
+        
+    </div>
+</body>
+</html>

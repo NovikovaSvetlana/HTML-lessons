@@ -1,0 +1,20 @@
+/*style file*/
+pre {
+    color: red;
+    font-weight: bold;
+}
+pre span {
+    color: green;
+}
+.underline {
+    text-decoration: underline;
+}
+pre > span {
+    text-decoration: line-through;
+}
+/*display*/
+b {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}

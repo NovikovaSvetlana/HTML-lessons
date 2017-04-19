@@ -1,0 +1,30 @@
+.container {
+   background-color: #caf5e7;
+}
+.fa {
+    color: red;
+}
+.fa-bicycle {
+    color: green;
+    position: absolute;
+    left: 50px;
+}
+.fa-bicycle:hover {
+    color:blue;
+    transform: scale(3, 3);
+}
+.fa-plane {
+    color: green;
+    transition: all 300ms;
+}
+.fa-plane:hover {
+    color:blue;
+    transform: translate(60px, -50px);
+}
+.fa-bus {
+    color: darkblue;
+}
+.fa-bus:hover {
+    color: green;
+    transform: rotate(180deg);
+}

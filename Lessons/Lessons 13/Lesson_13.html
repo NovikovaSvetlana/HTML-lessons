@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 13</title>
+    <link rel="stylesheet" href="CSS/css_lesson_13.css">
+</head>
+<body>
+   <h2>Validation/Проверка</h2>
+   <input type="text" placeholder="example">placeholder, чтобы не было пустого места в поле ввода<br>
+   <input type="text" disabled>Disable видим, но не вводим<br>
+   <input type="text" value="Некоторое начальное значение"><br>
+   <input type="text" readonly>Только для чтения readonly<br>
+   <input type="text" autocomplete="off">Подсказка автоматическая autocomplete<br>
+   <input type="submit" autofocus>Autofocus мышка уже готова для ввода в нужном окне<br>
+   <input type="text" form="form1 form2">form, если одинаковый input должен стоять в различных блоках
+   
+   <h3>List/Список по выбору из опций</h3>
+<input list="browsers" placeholder="Выберите Браузер">Список для выбора опций
+
+<datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+</datalist>
+    
+    <h3>Validation</h3>
+    <form action="test">
+        <input type="text" minlength="4" maxlength="20" pattern="[A-Z]{10}" placeholder="Username" name="username" required>
+        <input type="submit"><br>
+        <input type="number" min="18" max="60" placeholder="Возраст" name="Возраст" required>
+        <input type="submit">
+    </form>
+    
+    [a-z]{2,}[A-Z]{,2}[0-9]{,2}
+    
+</body>
+</html>

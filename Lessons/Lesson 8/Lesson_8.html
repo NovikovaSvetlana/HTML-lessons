@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 8</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/css_lesson_8.css">
+        <style>
+            ul,ol {
+                padding: 5 px 20px;
+            }
+            ul[type="abrakadabra"] > li {
+                color:magenta;
+                list-style-type: lower-roman;
+            }
+            table {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lists - Списки</h2>
+        <ul>
+            <li>Item1
+                <ul type="abrakadabra"> 
+                <li>Second level
+                        <ul>
+                            <li>Trird level
+                                <ul type="circle">
+                                    <li>Fouth level</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                <li>Second level</li>
+                <li>Second level</li>
+            </ul>
+            </li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+            <li>Item5</li>
+            
+        </ul>
+        
+        <ol>
+            <li>Item1
+            <ol type="A">
+                <li>Second level
+                        <ol type="a">
+                            <li>Trird level
+                                <ol type="I">
+                                <li>Fouth level</li>
+                                <li>Fouth level</li>
+                                <p>текст соотвествует уровню списка, использовала тег Р</p>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                <li>Second level</li>
+                <li>Second level</li>
+            </ol>
+            </li>
+            </li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+            <li>Item5</li>
+            
+        </ol>
+        
+        <h2>Таблицы</h2>
+        <table border="1" cellspasing="0"  align="center">
+            <tr>
+                <td>1</td>
+                <td colspan="3">2</td>
+            </tr>
+            <tr>
+                <td width="40">3</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td colspan="2">1</td>
+                <td colspan="2" rowspan="4">2</td>
+            </tr>
+            <tr>
+                <td style="overflow: auto;">1 абракадабка</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <h3> Пример таблицы со студентами</h3>
+        <table>
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Group</th>
+                <th>Teacher</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>Иван</td>
+                    <td>24</td>
+                    <td>webseo 2.0</td>
+                    <td>Гуцуляк Вадим</td>
+                </tr>
+                 <tr>
+                    <td>3</td>
+                    <td>Маргарита</td>
+                    <td>33</td>
+                    <td>webseo 2.0</td>
+                    <td>Гуцуляк Вадим</td>
+                </tr>
+                 <tr>
+                    <td>5</td>
+                    <td>Сергей</td>
+                    <td>44</td>
+                    <td>webseo 2.0</td>
+                    <td>Гуцуляк Вадим</td>
+                </tr>
+                 <tr>
+                    <td>6</td>
+                    <td>Мария</td>
+                    <td>17</td>
+                    <td>webseo 1.9</td>
+                    <td>Гуцуляк Вадим</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+</html>

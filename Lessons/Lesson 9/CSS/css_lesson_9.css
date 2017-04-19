@@ -1,0 +1,68 @@
+/*style file*/
+h1.title {
+    text-shadow: -1px -1px 2px red, 1px -1px 2px blue;
+}
+button.btn {
+    border: 1px solid #5a5454;
+    border-radius: 4px;
+    background-color: white;
+    padding: 3px 6px;
+    box-shadow: 1px 1px 2px 7px black;
+}
+button.btn1 {
+    border: 1px solid #5a5454;
+    border-radius: 4px;
+    background-color: white;
+    padding: 3px 6px;
+    box-shadow: inset 1px 1px 2px 7px black;
+    margin-top: 30px;
+}
+button.btn2 {
+    border: 1px solid #5a5454;
+    border-radius: 4px;
+    background-color: white;
+    padding: 3px 6px;
+    box-shadow: 1px 1px 2px black;
+    margin-top: 30px;
+}
+button.btn2:hover {
+    box-shadow: 0 0 4px 0 green;
+}
+button.btn2:focus {
+    border-color: red;
+    outline: none;
+}
+button.btn2:active {
+   box-shadow: inset 1px 1px 5px 0 green, 0 0 4px 0 green;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    min-width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+}
+.content .item {
+    box-sizing: border-box;
+    width: 25%;
+    height: 25%;
+    /*display: inline-block;*/
+    float: left;
+    /*margin: 10px;*/
+    padding: 10px;
+}
+.content .item .img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 100%;
+    cursor: pointer;
+    
+}
+.content .item .img:hover {
+    box-shadow: inset 0 0 11px rgba(0, 0, 0. .7);
+}

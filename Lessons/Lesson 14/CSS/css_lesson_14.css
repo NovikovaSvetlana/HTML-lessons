@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+header.main .logo {
+    display: inline-block;
+    padding: 0 8px;
+    font: 30px monospace;
+    line-height: 50px;
+    color: grey;
+}
+header.main .menu {
+    float: right;
+}
+li {
+    display: block;
+    float: left;
+}
+li ul {
+    display: none;
+}
+header.main .menu li a:hover {
+    background-color: beige;
+}
+header.main .menu li a {
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+    font: 18px monospace;
+    line-height: 50px;
+    color: grey;
+    transition: all 200ms;
+}
+header.main .menu li ul {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    background-color: white;
+}
+header.main .menu li ul li{
+    float: none;
+}
+header.main .menu li:hover ul {
+    display: block;
+}

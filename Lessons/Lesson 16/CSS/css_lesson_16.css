@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: azure;
+}
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+.wrapper header.main {
+    width: 100%;   
+}
+.wrapper header.main,
+.wrapper footer.main,
+.wrapper section.content article.text,
+.wrapper section.content aside.right-menu {
+    border: 1px solid #b1acac;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.wrapper header.main .logo {
+    display: inline-block;
+    font: monospace 30px;
+    color: #555555;
+    line-height: 50px;
+    padding: 0 10px;
+}
+.wrapper header.main nav.menu {
+    float: right;
+}
+.wrapper header.main nav.menu li {
+    display: block;
+    float: left;
+}
+.wrapper header.main nav.menu li a {
+    display: block;
+    padding: 0 10px;
+    line-height: 50px;
+    color: #555555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition: all 250ms;
+}
+.wrapper header.main nav.menu li a:hover {
+    background-color: beige;
+    
+}
+.wrapper section.content {
+    width: 100%;
+    padding: 15px 0;
+}
+.wrapper section.content article.text {
+    width: 80%;
+    display: inline-block;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.wrapper section.content article.text h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.wrapper section.content aside.right-menu {
+    width: 18%;
+    float: right;
+}
+.wrapper section.content aside.right-menu nav li {
+    list-style: none;
+}
+.wrapper section.content aside.right-menu nav li a {
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px solid;
+    color: #555555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+}
+.wrapper section.content aside.right-menu nav li a:hover {
+   background-color: beige;
+}
+.wrapper footer.main {
+    padding: 15px;
+}
+.wrapper footer.main:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.wrapper footer.main section.links {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.wrapper footer.main section.links h5 {
+    font-size: 20px;
+}
+.wrapper footer.main section.links li {
+    list-style: none;
+}
+@media screen and (max-width: 700px) {
+    .wrapper section.content aside.right-menu nav li a {
+        font-size: 14px;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .wrapper section.content aside.right-menu {
+        float: none;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .wrapper section.content article.text {
+    width: 100%;
+    }
+    .wrapper header.main .logo {
+        text-align: center;
+        display: block;
+    }
+    .wrapper header.main nav.menu {
+        float: none;
+    }
+    .wrapper header.main nav.menu li {
+        float: none;
+        text-align: center;
+        border-top: 1px solid grey;
+    }
+}

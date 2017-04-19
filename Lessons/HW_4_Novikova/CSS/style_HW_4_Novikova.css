@@ -1,0 +1,36 @@
+/*styles files*/
+.btn {
+    border: solid;
+    border-color:darkslategray;
+    background-color: beige;
+    border-width: 2px;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+.ncr {
+    border-color: red;
+    border-width: medium;
+    background-color: yellow;
+    font-size: 32px;
+    color: red;
+}
+.large {
+    padding: 20px;
+}
+.crt {
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border-width: 5px;
+    color: #f01cb7;
+    font-size: 48px;
+}
+.small {
+    padding:inherit;
+    font-size: inherit;
+}
+.ncr.wrn {
+    background-color: red;
+    color:aliceblue;
+    border-radius: 50%;
+}
